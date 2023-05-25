@@ -1,0 +1,120 @@
+/*PAGINA DE INICIO Y DISEÑOS PAGINAS EN GENERAL*/
+/*CUERPO*/
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*FONDO DE SITIO WEB*/
+body{
+    background-image: url('../public/images/21omxpw-768x480.jpg');
+}
+/*TITULO*/
+.titulo {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+}
+/*BARRA NAVEGADORA*/
+.nav-item{
+    background-color: #000000;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand img{
+    max-width: 350px;
+    max-height: 350px;
+}
+/*SUBTITULOS DE SECCIONES*/
+.subtitulo{
+        color: white;
+        font-family: "Arial", sans-serif;
+        font-size: 18px;
+        text-align: center;
+}
+/*SUBTITULO DE BIENVENIDA EN INICIO*/
+.subtitulo1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    font-size: 68px;
+}
+/*VIDEO PRESENTACION*/
+.video1{
+    width: 826px;
+    height: 415px;
+    margin-left: 490px;
+}
+/*FOOTER REDES Y HORARIOS*/
+footer{
+    height: 100%;
+}
+.horario{
+    color: white;
+    background-color: #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+}
+.redessoc{
+    display: flex;
+    margin-right: 10px;
+}
+/*PAGINA OFERTAS*/
+.card-body1{
+    background-color: black;
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-size: 68px;
+    text-align: center;
+}
+.card-title1{
+    background-color: black;
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-size: 68px;
+    text-align: center;
+}
+.card-text1{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Arial", sans-serif;
+    font-size: 68px;
+    text-align: center;
+}
+.off1{
+    color: rgb(255, 0, 0); 
+    text-decoration: line-through;
+}
+/*PAGINA CONTACTO*/
+/*CUADRO DE MENSAJERIA*/
+.form-control{
+    width: 400px;
+    height: 150px;
+}
+.row, con{
+padding: 2px;
+}
+.botonenvio{
+    margin: 15px;
+    padding: 3px;
+}
+.formcont{
+    color: rgb(255, 255, 255);
+    font-family: "Arial", sans-serif;
+    font-size: 68px;
+    text-align: center;
+}
+.contac {
+    color: rgb(255, 255, 255);
+    font-family: "Arial", sans-serif;
+}
