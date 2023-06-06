@@ -1,7 +1,4 @@
-@charset "UTF-8";
-/*PAGINA DE INICIO Y DISEÑOS PAGINAS EN GENERAL*/
-/*CUERPO*/
-/*variables*/
+/*RUTAS DE ESTILOS*/ /*VARIABLES*/
 @import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto:wght@400;700&display=swap");
 * {
   padding: 0;
@@ -33,14 +30,14 @@ body {
 }
 
 .formcont {
-  color: rgb(77, 77, 77);
+  color: rgb(209, 196, 173);
   font-family: "Arial", sans-serif;
   font-size: 68px;
   text-align: center;
 }
 
 .contac {
-  color: rgb(77, 77, 77);
+  color: rgb(209, 196, 173);
   font-family: "Arial", sans-serif;
 }
 
@@ -49,7 +46,7 @@ footer {
   height: 100%;
 }
 footer .horario {
-  color: rgb(77, 77, 77);
+  color: rgb(209, 196, 173);
   background-color: rgb(8, 0, 0);
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
@@ -70,22 +67,20 @@ footer .tarjetas {
 }
 
 /*BARRA NAVEGADORA*/
-.nav-item {
+nav .nav-item {
   background-color: rgb(8, 0, 0);
 }
-
-.nav-link {
-  color: rgb(77, 77, 77);
+nav .nav-link {
+  color: rgb(209, 196, 173);
 }
-
-.navbar-brand img {
+nav .navbar-brand img {
   max-width: 350px;
   max-height: 350px;
 }
 
 /*SUBTITULO DE BIENVENIDA EN INICIO*/
 .subtitulo1 {
-  color: rgb(77, 77, 77);
+  color: rgb(209, 196, 173);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,28 +96,28 @@ footer .tarjetas {
 }
 
 /*PAGINA OFERTAS*/
-.card-body1 {
+card .card-body1 {
   background-color: rgb(8, 0, 0);
-  color: rgb(77, 77, 77);
+  color: rgb(209, 196, 173);
   font-family: "Arial", sans-serif;
   font-size: 68px;
   text-align: center;
 }
-.card-body1 .card-title1 {
+card .card-body1 .card-title1 {
   background-color: rgb(8, 0, 0);
-  color: rgb(77, 77, 77);
+  color: rgb(209, 196, 173);
   font-family: "Arial", sans-serif;
   font-size: 68px;
   text-align: center;
 }
-.card-body1 .card-text1 {
+card .card-body1 .card-text1 {
   background-color: rgb(8, 0, 0);
-  color: rgb(77, 77, 77);
+  color: rgb(209, 196, 173);
   font-family: "Arial", sans-serif;
   font-size: 68px;
   text-align: center;
 }
-.card-body1 .off1 {
+card .card-body1 .off1 {
   color: rgb(255, 0, 0);
   text-decoration: line-through;
 }
@@ -130,7 +125,7 @@ footer .tarjetas {
 /*TITULOS*/
 .titulo {
   background-color: rgb(8, 0, 0);
-  color: rgb(77, 77, 77);
+  color: rgb(209, 196, 173);
   font-family: Arial, sans-serif;
   font-size: 24px;
   padding: 10px;
@@ -139,7 +134,7 @@ footer .tarjetas {
 
 /*SUBTITULOS DE SECCIONES*/
 .subtitulo {
-  color: rgb(77, 77, 77);
+  color: rgb(209, 196, 173);
   font-family: "Arial", sans-serif;
   font-size: 18px;
   text-align: center;
