@@ -5,11 +5,11 @@
     height: 150px;
 }
 .row, con{
-    padding: 2px;
+    padding: $padding;
 }
 .botonenvio{
     margin: 15px;
-    padding: 3px;
+    padding: $padding;
 }
 .formcont{
     color: $color-letra;
