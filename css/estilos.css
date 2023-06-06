@@ -21,7 +21,7 @@ body {
 }
 
 .row, con {
-  padding: 2px;
+  padding: 3px;
 }
 
 .botonenvio {
@@ -77,6 +77,9 @@ nav .navbar-brand img {
   max-width: 350px;
   max-height: 350px;
 }
+nav .navbar {
+  background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(70, 70, 69));
+}
 
 /*SUBTITULO DE BIENVENIDA EN INICIO*/
 .subtitulo1 {
@@ -96,35 +99,35 @@ nav .navbar-brand img {
 }
 
 /*PAGINA OFERTAS*/
-card .card-body1 {
+.card-body1 {
   background-color: rgb(8, 0, 0);
   color: rgb(209, 196, 173);
   font-family: "Arial", sans-serif;
   font-size: 68px;
   text-align: center;
 }
-card .card-body1 .card-title1 {
+.card-body1 .card-title1 {
   background-color: rgb(8, 0, 0);
   color: rgb(209, 196, 173);
   font-family: "Arial", sans-serif;
   font-size: 68px;
   text-align: center;
 }
-card .card-body1 .card-text1 {
+.card-body1 .card-text1 {
   background-color: rgb(8, 0, 0);
   color: rgb(209, 196, 173);
   font-family: "Arial", sans-serif;
   font-size: 68px;
   text-align: center;
 }
-card .card-body1 .off1 {
+.card-body1 .off1 {
   color: rgb(255, 0, 0);
   text-decoration: line-through;
 }
 
 /*TITULOS*/
 .titulo {
-  background-color: rgb(8, 0, 0);
+  background-image: linear-gradient(to left, rgb(5, 5, 5), rgb(128, 128, 128));
   color: rgb(209, 196, 173);
   font-family: Arial, sans-serif;
   font-size: 24px;
