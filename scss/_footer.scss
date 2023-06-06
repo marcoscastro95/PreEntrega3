@@ -1,0 +1,25 @@
+    /*FOOTER REDES Y HORARIOS*/
+    footer{
+        height: 100%;
+        .horario{
+        color: $color-letra;
+        background-color: $color-fondo;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        text-align: center;
+        border: 2px solid rgb(255, 255, 255);
+        }
+        .redessoc{
+        display: flex;
+        margin-right: 10px;
+        } 
+
+        .copyright {
+            background-color: $background-color;
+            padding: 10px;
+            color: $text-color;
+        }      
+        .tarjetas {
+            padding: 10px;
+        }
+        }
