@@ -13,4 +13,14 @@ nav {
 .navbar{
     background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(70, 70, 69));
 }
+.nav-link{
+	color: white;
+}
+.nav-link active{
+color: white;
+}
+.navbar-collapse{
+    background-color: black;
+    padding: 10 30px;
+    }
 }

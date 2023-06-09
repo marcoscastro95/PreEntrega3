@@ -65,6 +65,10 @@ footer .copyright {
 footer .tarjetas {
   padding: 10px;
 }
+footer .tarjet {
+  max-width: 100%;
+  height: auto;
+}
 
 /*BARRA NAVEGADORA*/
 nav .nav-item {
@@ -79,6 +83,16 @@ nav .navbar-brand img {
 }
 nav .navbar {
   background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(70, 70, 69));
+}
+nav .nav-link {
+  color: white;
+}
+nav .nav-link active {
+  color: white;
+}
+nav .navbar-collapse {
+  background-color: black;
+  padding: 10 30px;
 }
 
 /*SUBTITULO DE BIENVENIDA EN INICIO*/
@@ -141,6 +155,13 @@ nav .navbar {
   font-family: "Arial", sans-serif;
   font-size: 18px;
   text-align: center;
+}
+
+/*NOVEDADES*/
+@media screeen and (max-width: 1200px) {
+  .card-img-top {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
