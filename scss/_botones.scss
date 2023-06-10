@@ -1,3 +1,6 @@
 .call-to-action {
     background-color: map-get($botones, call-to-action);
 }
+.boton-secundario {
+    background-color: map-get($botones, boton-secundario);
+}
