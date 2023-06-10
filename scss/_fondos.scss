@@ -1,0 +1,24 @@
+$mode: default;
+
+@if $mode == dark {
+body{
+background-color: black;
+color:white;
+}
+}@else if $mode == default{
+body{
+background-image: url('../public/images/21omxpw-768x480.jpg');
+color:rgb(3, 3, 3);
+}
+}
+@else if $mode ==themebordo{
+body{
+background-color: rgb(20, 3, 3);
+color:rgb(168, 168, 168);
+}
+}@else{
+body{
+background-color: rgb(4, 2, 20);
+color:rgb(108, 108, 129); 
+}
+}
